@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'mysql',
+        'USER': ',mysql',
+        'PASSWORD': 'mysql',
         'HOST': 'db',
-        'PORT': 5432,
+        'PORT': '3306',
     }
 }
 
