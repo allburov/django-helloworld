@@ -1,5 +1,4 @@
 # requirements.txt file
 Django==2.2.3
-psycopg2
 mysqlclient
 mysql-connector-python
